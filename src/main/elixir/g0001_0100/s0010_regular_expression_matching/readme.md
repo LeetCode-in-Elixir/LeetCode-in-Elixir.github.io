@@ -88,7 +88,7 @@ defmodule Solution do
             end
           end
 
-        :ets.insert(:cache, {{i, j}, result})
+        :ets.insert(:cache, { {i, j}, result})
         result
     end
   end
